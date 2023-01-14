@@ -1,0 +1,173 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+#header-img{
+    width: 100%;
+}
+#header{
+    position: fixed; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+#nav-bar{
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    margin-left: -2rem;
+    font-size: 1.8em;
+}
+#video{
+    margin-top: 27rem;
+    width: 100%;
+}
+/* ----gitars photo--- */
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categories{
+    margin: 7rem 0;
+    
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+    border-radius: .5rem;
+    height: 60rem;
+}
+.small-container{
+    max-width: 108rem;
+    margin: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+}
+.categories .col-3:hover{
+    transform: translateY(-1rem);
+}
+.categories .col-3{
+    text-align: center;
+    padding: 4rem 2rem;
+    box-shadow: 0 0 2rem rgba(187, 26, 26, 0.418);
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-family: cursive;
+}
+h3{
+    font-size: 1.5rem;
+}
+footer{
+    margin-bottom: 30rem;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .row{
+       text-align: center;
+    }
+    #video{
+       margin-top: 10rem;
+    }
+    h1{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: cursive;
+    }
+
+}
+
+
+/* ---- Media Queries--- */
+ /* @media(max-width: 478px){
+    #header-img{
+        width: 100%;
+    }
+}
+@media(max-width: 480px){
+    .nav-link{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 403px) {
+    .nav-link {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #video {
+      margin-top: 120px;
+      width: 24rem;
+      height: 21rem;
+    }
+  }
+  
+  @media (max-width: 478px) {
+    #video {
+      margin-top: 90px;
+    }
+  } */
+  
+   /* @media (max-width: 480px) { */
+    /* .Guitar-box { */
+      /* flex-wrap: wrap;    prevent x-axis overflow */
+
+    /* } */
+  /* }  */
+  
+  /* @media (max-width: 480px) { */
+    /* .Guitar-box { */
+      /* display: grid; */
+      /* grid-template-columns: 1fr 1fr; <img>'s not on single line */
+      /* margin-left: 10px; */
+    /* } */
+  
+    /* .Guitars { */
+      /* max-width: 140px; */
+      /* height: 23rem; */
+    /* } */
+  
+    /* h1 { */
+      /* font-size: 1.6rem; */
+    /* } */
+  /* } */
+  
+  /* @media (min-width: 400px) and (max-width: 700px) { */
+    /* .Guitars-Caption { */
+      /* margin-left: -49px; */
+    /* } */
+  /* }  */
+
+ 
+   
